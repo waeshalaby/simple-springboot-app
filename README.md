@@ -8,6 +8,7 @@ Spring Boot automatically configures required classes depending on the libraries
 
 A spring boot application can be created in three different ways
 
+
     Spring boot initialize web interface
 
     Spring boot CLI
