@@ -1,6 +1,10 @@
 # Use UBI9 as the base image
 FROM registry.access.redhat.com/ubi9/ubi:latest
 
+# Install OpenJDK
+RUN yum install -y java-11-openjdk && \
+    yum clean all
+    
 # Set the working directory
 WORKDIR /app
 
