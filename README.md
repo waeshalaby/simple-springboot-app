@@ -1,4 +1,5 @@
 
+
 # Simple Spring Boot Application - A Quick Start Guide
 
 It is an approach to develop spring based application with very less configuration. 
